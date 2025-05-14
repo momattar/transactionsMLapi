@@ -41,3 +41,26 @@ It is intended to be used by external applications (e.g., an ASP.NET MVC).
 **Request Headers:**
 ```http
 Content-Type: application/json
+```
+### 📥 Request Format
+
+Send a JSON object with the following structure (sample):
+
+```json
+{
+  "type": "CASH_OUT",
+  "amount": 9800,
+  "oldbalanceOrg": 9800,
+  "newbalanceOrig": 0,
+  "oldbalanceDest": 0,
+  "newbalanceDest": 0
+}
+```
+
+### 📥 Response Format
+```json
+{
+  "prediction": "Fraud"  // or "Not Fraud"
+}
+```
+
