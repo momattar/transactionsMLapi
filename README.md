@@ -4,12 +4,9 @@ A Flask-based API that predicts fraudulent online payment transactions using a m
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Hosted API
 
-🚀 Hosted API:  
-**https://transactionsmlapi-production.up.railway.app/predict**
 
-Send a POST request with transaction data to get a fraud prediction (0 = Not Fraud, 1 = Fraud).
 
 ---
 
